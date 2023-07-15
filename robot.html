@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+        height: 500px;
+        width: 500px;
+        border: 2px solid black;
+        background-color: blanchedalmond;
+        position: relative;
+        margin: 20px;
+      }
+      .b{
+        height: 40px;
+        width: 40px;
+        border: 2px solid red;
+      }
+      .b1{
+        background-color: skyblue;
+        position: relative;
+        border: 1px solid green;
+        top: 150px;
+        left: 220px;
+        height: 60px;
+        width: 90px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        animation: head 2s linear infinite;
+      }
+      .b2{
+        background-color: deeppink;
+        position: relative;
+        border: 1px solid blue;
+        top: 153px;
+        left: 220px;
+        height: 100px;
+        width: 90px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+      .b3{
+        background-color: darkslategray;
+        position: relative;
+        border: 1px solid blue;
+        top: 53px;
+        left: 202px;
+        height: 60px;
+        width: 14px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        animation: hand1 2s linear infinite;
+      }
+      .b4{
+        background-color: darkslategray;
+        position: relative;
+        border: 1px solid blue;
+        top: -8px;
+        left: 314px;
+        height: 60px;
+        width: 14px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        animation: hand2 2s linear infinite;
+      }
+      .b5{
+        background-color: darkslategray;
+        position: relative;
+        border: 1px solid blue;
+        position: relative;
+        top: 29px;
+        left: 235px;
+        height: 55px;
+        width: 15px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px; 
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        animation: leg1 2s linear infinite;
+      }
+      .b6{
+        background-color: darkslategray;
+        position: relative;
+        border: 1px solid blue;
+        position: relative;
+        bottom: 27px;
+        left: 280px;
+        height: 55px;
+        width: 15px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        animation: leg2 2s linear infinite;
+      }
+      .b7{
+        background-color:green;
+        border: 1px solid green;
+        border-radius: 100%;
+        position: relative;
+        left: 240px;
+        bottom: 210px;
+        height: 10px;
+        width: 10px;
+        background: linear-gradient(gray,yellow,black);
+        animation: eye1 2s linear infinite;
+      }
+      .b8{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        position: relative;
+        left: 280px;
+        bottom: 221px;
+        height: 10px;
+        width: 10px;
+        background: linear-gradient(gray,yellow,black);
+        animation: eye2 2s linear infinite;
+      }
+      .b9{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        position: relative;
+        left: 255px;
+        bottom: 168px;
+        height: 18px;
+        width: 18px;
+        background: linear-gradient(red,blue,red);
+      }
+      .b10{
+        background-color: dodgerblue;
+        position: relative;
+        border: 1px solid blue;
+        bottom: 330px;
+        left: 265px;
+        height: -10px;
+        width: 1px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        
+      }
+      .b11{
+      background-color: blue;
+        border: 1px solid white;
+        border-radius: 100%;
+        position: relative;
+        left: 260px;
+        bottom: 380px;
+        height: 10px;
+        width: 10px;
+      }
+      @keyframes hand2{
+        0%{
+          transform: translate(25px) rotate(-45deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+      @keyframes hand1{
+        0%{
+          transform: translate(-20px) rotate(65deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+       @keyframes leg2{
+        0%{
+          transform: translate(25px) rotate(-45deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+      @keyframes leg1{
+        0%{
+          transform: translate(-20px) rotate(65deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      } 
+      @keyframes eye1{
+        0%{
+          transform: translate(5px) rotate(5deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+      @keyframes eye2{
+        0%{
+          transform: translate(5px) rotate(5deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+      @keyframes head{
+        0%{
+          transform: translate(-5px) rotate(0deg);
+        }
+        50%{
+          transform: translate(0px) rotate(-0deg);
+        }
+        100%{
+          transform: translate(0px) rotate(-0deg);
+        }
+      }
+      
+      
+    </style>
+</head>
+<h1>Dancing Robot</h1>
+<body>
+   <div class="box">
+    <div class="b b1"></div>
+    <div class="b b2"></div>
+    <div class="b b3"></div>
+    <div class="b b4"></div>
+    <div class="b b5"></div>
+    <div class="b b6"></div>
+    <div class="b b7"></div>
+    <div class="b b8"></div>
+    <div class="b b9"></div>
+    <div class="b b10"></div>
+    <div class="b b11"></div>
+   </div> 
+
+</body>
+</html>
